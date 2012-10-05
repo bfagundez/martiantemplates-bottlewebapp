@@ -15,6 +15,11 @@
 	</head>
 
 	<body>
-		<h1>It works!</h1>
+		<!-- Header -->
+		%include admin/partials/header.tpl
+		<!-- Page content -->
+		%include
+		<!-- Footer -->
+		%include admin/partials/footer.tpl
 	</body>
 </html>

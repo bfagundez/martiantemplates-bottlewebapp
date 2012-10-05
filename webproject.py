@@ -17,5 +17,5 @@ session_opts = {
 thisapp = SessionMiddleware(controllers.server.webApp, session_opts)
 
 # Start the Bottle webapp 
-run(app=thisapp, host='0.0.0.0', port=8080) 
+run(app=thisapp, host='0.0.0.0', port=8080, server=CherryPyServer) 
 

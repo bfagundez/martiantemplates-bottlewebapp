@@ -1,3 +1,3 @@
-<link rel="stylesheet" href="{{ get_url('static', path='stylesheets/foundation.css') }}">
-<link rel="stylesheet" href="{{ get_url('static', path='stylesheets/app.css') }}">
-<link rel="stylesheet" href="{{ get_url('static', path='stylesheets/jquery-ui-1.8.22.custom.css') }}">
+	<link rel="stylesheet" href="{{ get_url('static', path='css/bootstrap.min.css') }}">
+	<link rel="stylesheet" href="{{ get_url('static', path='css/bootstrap-responsive.min.css') }}">
+	<link rel="stylesheet" href="{{ get_url('static', path='css/smoothness/jquery-ui-1.8.24.custom.css') }}">

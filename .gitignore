@@ -20,6 +20,9 @@ pip-log.txt
 .coverage
 .tox
 
+# Test databases
+*.db
+
 #Translations
 *.mo
 
