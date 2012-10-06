@@ -1,7 +1,7 @@
 %rebase admin/layout get_url=get_url, users=users
-
+<div class="container">
 	<!-- Users table -->
-	<table id="users_table">
+	<table id="users_table" class="table table-striped table-bordered table-hover">
 		<thead>
 			<tr>
 				<th>Id</th>
@@ -17,13 +17,13 @@
 				<td> {{row.user_name}}</td>
 				<td> {{row.email_address}}</td>
 				<td> 
-					<a href="/user/edit/{{row.user_id}}">Edit</a>
-					<a href="/user/delete/{{row.user_id}}">Delete</a>
+					<a href="admin/user/{{row.user_id}}" class="btn btn-small">Edit</a>
+					<a href="admin/user/delete/{{row.user_id}}" class="btn btn-small btn-danger">Delete</a>
 				</td>
 			</tr>
 			%end
 		</tbody>							
 	</table>	
 	
-	<a href="/user/new/">New user</a>
-	
+	<a href="admin/user/new/" class="btn btn-primary">New user</a>
+</div>

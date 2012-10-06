@@ -22,7 +22,8 @@ metadata.bind = db_engine
 user = Table('user', metadata,
     Column('user_id', Integer, primary_key = True),
     Column('user_name', String(16), nullable = False),
-    Column('email_address', String(60), key='email'),
+    Column('email_address', String(60), nullable = False),
+    Column('hash', String(60), nullable = False),
     Column('password', String(20), nullable = False)
 )
 
